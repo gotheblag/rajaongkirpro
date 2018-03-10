@@ -1,6 +1,6 @@
 <?php
 
-namespaceerfanbagussetiana\rajaongkirpro;
+namespace erfanbagussetiana\rajaongkirpro;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;
