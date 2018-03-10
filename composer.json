@@ -9,12 +9,12 @@
     "authors": [
         {
             "name": "M. Erfan Bagus Setiana",
-            "email": "erfanbagus@hotmail.com"
+            "email": "erfanbagussetiana@gmail.com"
         }
     ],
     "autoload": {
     	"psr-4": {
-    		"erfan-bagus\\rajaongkir_pro-laravel\\": "src/"
+    		"erfanbagussetiana\\rajaongkirpro\\": "src/"
     	}
     },
     "require": {
