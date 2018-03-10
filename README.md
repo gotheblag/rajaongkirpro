@@ -6,13 +6,13 @@ API ini digunakan untuk type akun starter,basic dan pro
 
 Download package dengan composer
 ```
-composer require erfan-bagus/rajaongkir_pro-laravel
+composer require erfanbagussetiana/rajaongkirpro
 ```
 atau
 ```
 {
 	"require": {
-		"erfan-bagus/rajaongkir_pro-laravel" : "dev-master"
+		"erfanbagussetiana/rajaongkirpro" : "dev-master"
 	}
 }
 ```
@@ -22,7 +22,7 @@ Tambahkan service provider ke config/app.php
 'providers' => [
 	....
 	
-	erfan-bagus\rajaongkir_pro-laravel\RajaOngkirServiceProvider::class,
+	erfanbagussetiana\rajaongkirpro\RajaOngkirServiceProvider::class,
 ]
 ```
 
@@ -31,7 +31,7 @@ Tambahkan juga aliasnya ke config/app.php
 'aliases' => [
 	....
 	
-	'RajaOngkir' => erfan-bagus\rajaongkir_pro-laravel\RajaOngkirFacade::class,
+	'RajaOngkir' => erfanbagussetiana\rajaongkirpro\RajaOngkirFacade::class,
 ]
 ```
 
