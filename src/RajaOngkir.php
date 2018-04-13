@@ -2,6 +2,7 @@
 
 namespace erfanbagussetiana\rajaongkirpro;
 
+use erfanbagussetiana\rajaongkirpro\app\Cost_luar;
 use erfanbagussetiana\rajaongkirpro\app\Dikirim_dari;
 use erfanbagussetiana\rajaongkirpro\app\International;
 use erfanbagussetiana\rajaongkirpro\app\Kecamatan;
@@ -30,5 +31,8 @@ class RajaOngkir {
     }
 	public function Cost($attributes){
 		return new Cost($attributes);
+	}
+	public function Cost_luar($attributes){
+		return new Cost_luar($attributes);
 	}
 }
